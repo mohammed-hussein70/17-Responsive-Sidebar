@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  width: 90%;
+}
+.links {
+  width: 200px;
+  background-color: #c5c3c3;
+  height: 350px;
+
+  a {
+    padding: 0 10px;
+    text-decoration: none;
+    height: calc(100% / 5);
+    display: block;
+    text-align: left;
+    color: rgb(55, 55, 55);
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    &:hover {
+      background-color: #333;
+      color: white;
+    }
+    &.active {
+      background-color: #04aa6d;
+      color: black;
+    }
+  }
+}
+.container {
+  display: flex;
+  border: 2px solid #a3a0a0;
+  height: 350px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.cont {
+  padding: 1px 20px 150px;
+  text-align: center;
+  overflow: auto;
+  p {
+    padding-bottom: 50px;
+  }
+}
